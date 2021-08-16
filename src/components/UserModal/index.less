@@ -1,0 +1,27 @@
+.modal-title {
+  font-size: 16px;
+  text-align: center;
+  margin: 12px 0 36px 0;
+  position: relative;
+  font-weight: bold;
+  &::after {
+    content: '';
+    width: 36px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -8px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+.submit-btn {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 24px;
+}
