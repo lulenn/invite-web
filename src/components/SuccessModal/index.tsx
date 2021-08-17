@@ -7,7 +7,7 @@ function SuccessModal(props: ISuccessModalProps): JSX.Element {
   const { visible, onOk } = props;
 
   return (
-    <Modal visible={visible} footer={null} closable={false}>
+    <Modal visible={visible} footer={null} closable={false} getContainer={false}>
       <div className="modal-title">All done!</div>
       <div className="success-message">
         You will be one of the first to experience <br />

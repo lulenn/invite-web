@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SuccessModal should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-modal-root"
+  >
+    <div
+      class="ant-modal-mask"
+    />
+    <div
+      class="ant-modal-wrap"
+      role="dialog"
+      tabindex="-1"
+    >
+      <div
+        class="ant-modal"
+        role="document"
+        style="width: 520px;"
+      >
+        <div
+          aria-hidden="true"
+          style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+          tabindex="0"
+        />
+        <div
+          class="ant-modal-content"
+        >
+          <div
+            class="ant-modal-body"
+          >
+            <div
+              class="modal-title"
+            >
+              All done!
+            </div>
+            <div
+              class="success-message"
+            >
+              You will be one of the first to experience 
+              <br />
+              Broccoli & Co. when we launch.
+            </div>
+            <button
+              class="ant-btn btn"
+              type="button"
+            >
+              <span>
+                Ok
+              </span>
+            </button>
+          </div>
+        </div>
+        <div
+          aria-hidden="true"
+          style="width: 0px; height: 0px; overflow: hidden; outline: none;"
+          tabindex="0"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

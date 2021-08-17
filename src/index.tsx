@@ -4,10 +4,13 @@ import './index.less';
 import 'antd/dist/antd.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ErrorBoundary from './ErrorBound';
 
 ReactDOM.render(
   <StrictMode>
-    <App />
+    <ErrorBoundary>
+      <App />
+    </ErrorBoundary>
   </StrictMode>,
   document.getElementById('root')
 );

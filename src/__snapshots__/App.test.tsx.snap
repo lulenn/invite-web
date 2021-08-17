@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="Header"
+    >
+      Broccoli & Co.
+    </div>
+    <div
+      class="Home"
+    >
+      <div
+        class="Content"
+      >
+        <p
+          class="text-main"
+        >
+          A better way 
+          <br />
+           to enjoy every day.
+        </p>
+        <p
+          class="text-hint"
+        >
+          Be the first to know when we launch.
+        </p>
+        <button
+          class="ant-btn"
+          type="button"
+        >
+          <span>
+            Request an invite
+          </span>
+        </button>
+      </div>
+      <div
+        class="ant-modal-root"
+      >
+        <div
+          class="ant-modal-wrap"
+          role="dialog"
+          style="display: none;"
+          tabindex="-1"
+        />
+      </div>
+    </div>
+    <div
+      class="Footer"
+    >
+      <p>
+        Made with ❤️ Melbourne.
+      </p>
+      <p>
+        @ 2016 Broccoli & Co. All rights reserved.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

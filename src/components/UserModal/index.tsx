@@ -20,17 +20,16 @@ function UserModal(props: IUserModalProps): JSX.Element {
     setLoading(true);
     // request api
     postUserForm({ name, email })
-      .then(x => {
+      .then(() => {
         form.resetFields();
+        setError('');
         onOk();
       })
       .catch((e: Error) => {
-        console.log(e);
         setError(e.message);
       })
       .finally(() => {
         setLoading(false);
-        setError('');
       });
   };
 
@@ -100,7 +99,7 @@ function UserModal(props: IUserModalProps): JSX.Element {
           <Button className="submit-btn" htmlType="submit" disabled={loading}>
             {loading ? 'Sending, please wait...' : 'Send'}
           </Button>
-          <div className="error">{error || ''}</div>
+          {error && <div className="error" data-testid="error"></div>}
         </FormItem>
       </Form>
     </Modal>

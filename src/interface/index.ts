@@ -3,7 +3,9 @@ export interface IUserModalProps {
   onOk: () => void;
   onCancel: () => void;
 }
-
+export interface IUserFormProps {
+  onOk: () => void;
+}
 export interface IUserForm {
   name: string;
   email: string;

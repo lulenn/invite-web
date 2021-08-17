@@ -32,8 +32,8 @@ function Home(): JSX.Element {
         <Button onClick={openUserModal}>Request an invite</Button>
       </div>
 
-      <UserModal visible={userModalVisible} onOk={handleOk} onCancel={handleCancel} />
-      <SuccessModal visible={successModalVisible} onOk={handleSuccess} />
+      <UserModal data-testid="user-madal" visible={userModalVisible} onOk={handleOk} onCancel={handleCancel} />
+      <SuccessModal data-testid="success-madal" visible={successModalVisible} onOk={handleSuccess} />
     </div>
   );
 }
