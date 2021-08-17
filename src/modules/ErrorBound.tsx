@@ -15,7 +15,7 @@ class ErrorBoundary extends React.Component<Record<string, unknown>, { hasError:
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   render() {
     if (this.state.hasError) {
-      // 你可以自定义降级后的 UI 并渲染
+      // 自定义降级后的 UI 并渲染
       return <h1>Something went wrong.</h1>;
     }
 
