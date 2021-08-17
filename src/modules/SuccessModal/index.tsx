@@ -1,7 +1,11 @@
-import { ISuccessModalProps } from '../../interface';
 import { APP_TITLE } from '../../constant';
 import { Modal, Button } from 'antd';
 import './index.less';
+
+export interface ISuccessModalProps {
+  visible: boolean;
+  onOk: () => void;
+}
 
 function SuccessModal(props: ISuccessModalProps): JSX.Element {
   const { visible, onOk } = props;

@@ -11,10 +11,10 @@ exports[`App should take a snapshot 1`] = `
       Broccoli & Co.
     </div>
     <div
-      class="Home"
+      class="home"
     >
       <div
-        class="Content"
+        class="content"
       >
         <p
           class="text-main"

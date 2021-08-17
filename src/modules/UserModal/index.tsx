@@ -1,8 +1,22 @@
 import { useCallback, useState } from 'react';
 import { Button, Form, Input, Modal } from 'antd';
-import { IUserForm, IUserModalProps } from '../../interface';
 import './index.less';
 import { postUserForm } from '../../api';
+
+export interface IUserModalProps {
+  visible: boolean;
+  onOk: () => void;
+  onCancel: () => void;
+}
+
+export interface IUserFormParams {
+  name: string;
+  email: string;
+}
+
+export type IUserForm = IUserFormParams & {
+  confirmEmail: string;
+};
 
 const FormItem = Form.Item;
 

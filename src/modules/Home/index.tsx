@@ -1,8 +1,8 @@
 import { useState, useCallback } from 'react';
 import { Button } from 'antd';
-import UserModal from '../../components/UserModal';
+import UserModal from '../UserModal';
 import './index.less';
-import SuccessModal from '../../components/SuccessModal';
+import SuccessModal from '../SuccessModal';
 
 function Home(): JSX.Element {
   const [userModalVisible, setUserModalVisible] = useState(false);
@@ -23,8 +23,8 @@ function Home(): JSX.Element {
   }, []);
 
   return (
-    <div className="Home">
-      <div className="Content">
+    <div className="home">
+      <div className="content">
         <p className="text-main">
           A better way <br /> to enjoy every day.
         </p>
