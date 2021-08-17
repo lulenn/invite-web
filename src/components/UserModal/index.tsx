@@ -99,7 +99,9 @@ function UserModal(props: IUserModalProps): JSX.Element {
           <Button className="submit-btn" htmlType="submit" disabled={loading}>
             {loading ? 'Sending, please wait...' : 'Send'}
           </Button>
-          {error && <div className="error" data-testid="error"></div>}
+          <div className="error" data-testid="error">
+            {error}
+          </div>
         </FormItem>
       </Form>
     </Modal>

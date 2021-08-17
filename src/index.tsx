@@ -2,9 +2,9 @@ import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.less';
 import 'antd/dist/antd.css';
-import App from './App';
+import App from './modules/App';
 import reportWebVitals from './reportWebVitals';
-import ErrorBoundary from './ErrorBound';
+import ErrorBoundary from './modules/ErrorBound';
 
 ReactDOM.render(
   <StrictMode>

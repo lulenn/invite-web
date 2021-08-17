@@ -1,8 +1,8 @@
 import { useState, useCallback } from 'react';
 import { Button } from 'antd';
-import UserModal from '../components/UserModal';
+import UserModal from '../../components/UserModal';
 import './index.less';
-import SuccessModal from '../components/SuccessModal';
+import SuccessModal from '../../components/SuccessModal';
 
 function Home(): JSX.Element {
   const [userModalVisible, setUserModalVisible] = useState(false);

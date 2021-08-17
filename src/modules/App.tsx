@@ -1,6 +1,6 @@
 import './App.less';
 import Home from './Home';
-import { APP_COPYRIGHT, APP_TITLE } from './constant';
+import { APP_COPYRIGHT, APP_TITLE } from '../constant';
 
 function App(): JSX.Element {
   return (
